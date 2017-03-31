@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="enumeration/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/domain"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/domain/enumeration"/>
+	<classpathentry excluding="search/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/repository/search"/>
+	<classpathentry excluding="mapper/|dto/|impl/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/entity/templates/server/src/test/java/package/web/rest"/>
+	<classpathentry excluding="config/oauth2/|gateway/accesscontrol/|web/rest/|service/|domain/|config/social/|gateway/ratelimiting/|config/dbmigrations/|config/cassandra/|web/websocket/|security/social/|config/audit/|service/mapper/|web/rest/errors/|aop/logging/|web/websocket/dto/|client/|gateway/|gateway/responserewriting/|repository/|web/filter/|config/|web/rest/util/|security/|service/util/|web/rest/vm/|config/apidoc/|service/dto/|repository/search/|config/metrics/|security/jwt/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/aop/logging"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/client"/>
+	<classpathentry excluding="oauth2/|social/|dbmigrations/|cassandra/|audit/|apidoc/|metrics/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/apidoc"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/audit"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/cassandra"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/dbmigrations"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/metrics"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/oauth2"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/social"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/domain"/>
+	<classpathentry excluding="accesscontrol/|ratelimiting/|responserewriting/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/accesscontrol"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/ratelimiting"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/responserewriting"/>
+	<classpathentry excluding="search/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository/search"/>
+	<classpathentry excluding="social/|jwt/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/jwt"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/social"/>
+	<classpathentry excluding="mapper/|util/|dto/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/util"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/filter"/>
+	<classpathentry excluding="errors/|util/|vm/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/errors"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/util"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/vm"/>
+	<classpathentry excluding="dto/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket/dto"/>
+	<classpathentry excluding="security/|gateway/responserewriting/|cucumber/|config/|service/|config/elasticsearch/|cucumber/stepdefs/|repository/|security/jwt/|web/rest/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package"/>
+	<classpathentry excluding="elasticsearch/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config/elasticsearch"/>
+	<classpathentry excluding="stepdefs/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber/stepdefs"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/gateway/responserewriting"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/repository"/>
+	<classpathentry excluding="jwt/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security/jwt"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/service"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/web/rest"/>
+	<classpathentry excluding="impl/" kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/service/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="DEMOADDpages/node_modules/generator-jhipster/generators/service/templates/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="DEMOADDpages/src/main/java"/>
+	<classpathentry kind="src" path="DEMOADDpages/src/test/java"/>
+	<classpathentry kind="src" path="DEMOADDpages/target/generated-sources/annotations"/>
+	<classpathentry kind="src" path="DEMOFINAL/Jhip/src/main/java"/>
+	<classpathentry kind="src" path="DEMOFINAL/Jhip/src/test/java"/>
+	<classpathentry kind="src" path="DEMOFINAL/Jhip/target/generated-sources/annotations"/>
+	<classpathentry excluding="enumeration/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/domain"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/domain/enumeration"/>
+	<classpathentry excluding="search/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/repository/search"/>
+	<classpathentry excluding="dto/|mapper/|impl/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/entity/templates/server/src/test/java/package/web/rest"/>
+	<classpathentry excluding="config/oauth2/|domain/|web/rest/|config/dbmigrations/|config/social/|security/|gateway/accesscontrol/|web/rest/errors/|web/websocket/|web/websocket/dto/|gateway/ratelimiting/|config/cassandra/|security/social/|config/audit/|service/mapper/|web/filter/|aop/logging/|repository/|config/|gateway/responserewriting/|config/apidoc/|config/metrics/|service/dto/|client/|service/util/|gateway/|security/jwt/|web/rest/util/|service/|web/rest/vm/|repository/search/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/aop/logging"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/client"/>
+	<classpathentry excluding="oauth2/|dbmigrations/|social/|cassandra/|audit/|apidoc/|metrics/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/apidoc"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/audit"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/cassandra"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/dbmigrations"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/metrics"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/oauth2"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/social"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/domain"/>
+	<classpathentry excluding="accesscontrol/|ratelimiting/|responserewriting/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/accesscontrol"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/ratelimiting"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/responserewriting"/>
+	<classpathentry excluding="search/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository/search"/>
+	<classpathentry excluding="social/|jwt/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/jwt"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/social"/>
+	<classpathentry excluding="mapper/|dto/|util/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/util"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/filter"/>
+	<classpathentry excluding="errors/|util/|vm/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/errors"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/util"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/vm"/>
+	<classpathentry excluding="dto/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket/dto"/>
+	<classpathentry excluding="repository/|gateway/responserewriting/|cucumber/|config/|config/elasticsearch/|web/rest/|security/|security/jwt/|cucumber/stepdefs/|service/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package"/>
+	<classpathentry excluding="elasticsearch/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config/elasticsearch"/>
+	<classpathentry excluding="stepdefs/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber/stepdefs"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/gateway/responserewriting"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/repository"/>
+	<classpathentry excluding="jwt/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security/jwt"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/service"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/web/rest"/>
+	<classpathentry excluding="impl/" kind="src" path="DemoImages/node_modules/generator-jhipster/generators/service/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="DemoImages/node_modules/generator-jhipster/generators/service/templates/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="DemoImages/src/main/java"/>
+	<classpathentry kind="src" path="DemoImages/src/test/java"/>
+	<classpathentry kind="src" path="DemoImages/target/generated-sources/annotations"/>
+	<classpathentry excluding="enumeration/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/domain"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/domain/enumeration"/>
+	<classpathentry excluding="search/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/repository/search"/>
+	<classpathentry excluding="dto/|mapper/|impl/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/entity/templates/server/src/test/java/package/web/rest"/>
+	<classpathentry excluding="service/util/|web/rest/util/|config/metrics/|config/cassandra/|aop/logging/|gateway/accesscontrol/|gateway/responserewriting/|client/|gateway/|web/filter/|config/dbmigrations/|web/rest/vm/|config/|security/social/|config/audit/|service/mapper/|web/websocket/|domain/|config/apidoc/|security/jwt/|gateway/ratelimiting/|service/dto/|web/websocket/dto/|web/rest/errors/|service/|web/rest/|config/oauth2/|config/social/|security/|repository/search/|repository/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/aop/logging"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/client"/>
+	<classpathentry excluding="metrics/|cassandra/|dbmigrations/|audit/|apidoc/|oauth2/|social/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/apidoc"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/audit"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/cassandra"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/dbmigrations"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/metrics"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/oauth2"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/social"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/domain"/>
+	<classpathentry excluding="accesscontrol/|responserewriting/|ratelimiting/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/accesscontrol"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/ratelimiting"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/responserewriting"/>
+	<classpathentry excluding="search/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository/search"/>
+	<classpathentry excluding="social/|jwt/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/jwt"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/social"/>
+	<classpathentry excluding="util/|mapper/|dto/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/util"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/filter"/>
+	<classpathentry excluding="util/|vm/|errors/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/errors"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/util"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/vm"/>
+	<classpathentry excluding="dto/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket/dto"/>
+	<classpathentry excluding="security/jwt/|service/|config/elasticsearch/|config/|cucumber/|cucumber/stepdefs/|security/|web/rest/|gateway/responserewriting/|repository/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package"/>
+	<classpathentry excluding="elasticsearch/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config/elasticsearch"/>
+	<classpathentry excluding="stepdefs/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber/stepdefs"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/gateway/responserewriting"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/repository"/>
+	<classpathentry excluding="jwt/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security/jwt"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/service"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/web/rest"/>
+	<classpathentry excluding="impl/" kind="src" path="demosecond/node_modules/generator-jhipster/generators/service/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="demosecond/node_modules/generator-jhipster/generators/service/templates/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="demosecond/src/main/java"/>
+	<classpathentry kind="src" path="demosecond/src/test/java"/>
+	<classpathentry kind="src" path="demosecond/target/generated-sources/annotations"/>
+	<classpathentry excluding="enumeration/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/domain"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/domain/enumeration"/>
+	<classpathentry excluding="search/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/repository/search"/>
+	<classpathentry excluding="impl/|mapper/|dto/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/entity/templates/server/src/test/java/package/web/rest"/>
+	<classpathentry excluding="security/social/|security/|config/apidoc/|security/jwt/|domain/|web/websocket/|gateway/ratelimiting/|service/|service/dto/|config/dbmigrations/|web/websocket/dto/|config/oauth2/|repository/search/|gateway/accesscontrol/|web/rest/|config/social/|repository/|config/metrics/|config/audit/|aop/logging/|web/rest/util/|config/cassandra/|service/util/|config/|gateway/responserewriting/|web/rest/errors/|web/rest/vm/|web/filter/|gateway/|client/|service/mapper/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/aop/logging"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/client"/>
+	<classpathentry excluding="apidoc/|dbmigrations/|oauth2/|social/|metrics/|audit/|cassandra/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/apidoc"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/audit"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/cassandra"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/dbmigrations"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/metrics"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/oauth2"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/social"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/domain"/>
+	<classpathentry excluding="ratelimiting/|accesscontrol/|responserewriting/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/accesscontrol"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/ratelimiting"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/responserewriting"/>
+	<classpathentry excluding="search/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository/search"/>
+	<classpathentry excluding="social/|jwt/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/jwt"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/social"/>
+	<classpathentry excluding="dto/|util/|mapper/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/util"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/filter"/>
+	<classpathentry excluding="util/|errors/|vm/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/errors"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/util"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/vm"/>
+	<classpathentry excluding="dto/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket/dto"/>
+	<classpathentry excluding="repository/|config/|gateway/responserewriting/|cucumber/|security/|cucumber/stepdefs/|web/rest/|service/|security/jwt/|config/elasticsearch/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package"/>
+	<classpathentry excluding="elasticsearch/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config/elasticsearch"/>
+	<classpathentry excluding="stepdefs/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber/stepdefs"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/gateway/responserewriting"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/repository"/>
+	<classpathentry excluding="jwt/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security/jwt"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/service"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/web/rest"/>
+	<classpathentry excluding="impl/" kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/service/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="UNIVportal/node_modules/generator-jhipster/generators/service/templates/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="UNIVportal/src/main/java"/>
+	<classpathentry kind="src" path="UNIVportal/src/test/java"/>
+	<classpathentry kind="src" path="UNIVportal/target/generated-sources/annotations"/>
+	<classpathentry kind="lib" path="DEMOADDpages/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="DEMOADDpages/node_modules/generator-jhipster/generators/server/templates/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="DEMOADDpages/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.3.1.jar"/>
+	<classpathentry kind="lib" path="DEMOFINAL/Jhip/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="DemoImages/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="DemoImages/node_modules/generator-jhipster/generators/server/templates/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="DemoImages/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.3.1.jar"/>
+	<classpathentry kind="lib" path="demosecond/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="demosecond/node_modules/generator-jhipster/generators/server/templates/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="demosecond/node_modules/generator-jhipster/generators/server/templates/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="demosecond/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.3.1.jar"/>
+	<classpathentry kind="lib" path="UNIVportal/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="UNIVportal/node_modules/generator-jhipster/generators/server/templates/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="UNIVportal/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.3.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="DEMOADDpages/target/classes"/>
+</classpath>

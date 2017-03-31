@@ -1,0 +1,19 @@
+version: '2'
+services:
+    bahportal-app:
+        image: bahportal
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:mysql://bahportal-mysql:3306/bahportal?useUnicode=true&characterEncoding=utf8&useSSL=false
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+            - SPRING_DATA_ELASTICSEARCH_CLUSTER_NODES=bahportal-elasticsearch:9300
+        ports:
+            - 8080:8080
+    bahportal-mysql:
+        extends:
+            file: mysql.yml
+            service: bahportal-mysql
+    bahportal-elasticsearch:
+        extends:
+            file: elasticsearch.yml
+            service: bahportal-elasticsearch

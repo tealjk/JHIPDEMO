@@ -1,0 +1,19 @@
+version: '2'
+services:
+    boozallenstaffingportal-app:
+        image: boozallenstaffingportal
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:mysql://boozallenstaffingportal-mysql:3306/boozallenstaffingportal?useUnicode=true&characterEncoding=utf8&useSSL=false
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+            - SPRING_DATA_ELASTICSEARCH_CLUSTER_NODES=boozallenstaffingportal-elasticsearch:9300
+        ports:
+            - 8080:8080
+    boozallenstaffingportal-mysql:
+        extends:
+            file: mysql.yml
+            service: boozallenstaffingportal-mysql
+    boozallenstaffingportal-elasticsearch:
+        extends:
+            file: elasticsearch.yml
+            service: boozallenstaffingportal-elasticsearch

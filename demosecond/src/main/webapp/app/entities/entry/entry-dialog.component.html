@@ -1,0 +1,103 @@
+
+
+<form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+
+    <div class="modal-header">
+        <h4 class="modal-title" id="myEntryLabel" jhiTranslate="univportalApp.entry.home.createOrEditLabel">Create or edit a Entry</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                (click)="clear()">&times;</button>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group" [hidden]="!entry.id">
+            <label for="id" jhiTranslate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                   [(ngModel)]="entry.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.entrydate" for="field_entrydate">Entrydate</label>
+            <div class="d-flex">
+                <input id="field_entrydate" type="datetime-local" class="form-control" name="entrydate" [(ngModel)]="entry.entrydate"
+                required  />
+            </div>
+            <div [hidden]="!(editForm.controls.entrydate?.dirty && editForm.controls.entrydate?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.entrydate?.errors?.required" jhiTranslate="entity.validation.required">
+                   This field is required.
+                </small>
+                <small class="form-text text-danger"
+                    [hidden]="!editForm.controls.entrydate?.errors?.ZonedDateTimelocal" jhiTranslate="entity.validation.ZonedDateTimelocal">
+                    This field should be a date and time.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.candidatename" for="field_candidatename">Candidatename</label>
+            <input type="text" class="form-control" name="candidatename" id="field_candidatename"
+                [(ngModel)]="entry.candidatename"
+            required />
+            <div [hidden]="!(editForm.controls.candidatename?.dirty && editForm.controls.candidatename?.invalid)">
+                <small class="form-text text-danger"
+                   [hidden]="!editForm.controls.candidatename?.errors?.required" jhiTranslate="entity.validation.required">
+                   This field is required.
+                </small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.major" for="field_major">Major</label>
+            <input type="text" class="form-control" name="major" id="field_major"
+                [(ngModel)]="entry.major"
+             />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.pool" for="field_pool">Pool</label>
+            <input type="text" class="form-control" name="pool" id="field_pool"
+                [(ngModel)]="entry.pool"
+             />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.school" for="field_school">School</label>
+            <input type="text" class="form-control" name="school" id="field_school"
+                [(ngModel)]="entry.school"
+             />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.graduation" for="field_graduation">Graduation</label>
+            <div class="d-flex">
+                <input id="field_graduation" type="datetime-local" class="form-control" name="graduation" [(ngModel)]="entry.graduation"
+                  />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.availability" for="field_availability">Availability</label>
+            <input type="text" class="form-control" name="availability" id="field_availability"
+                [(ngModel)]="entry.availability"
+             />
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.recruiter" for="field_recruiter">Recruiter</label>
+            <textarea class="form-control" name="recruiter" id="field_recruiter"
+                [(ngModel)]="entry.recruiter"  ></textarea>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="univportalApp.entry.information" for="field_information">Information</label>
+            <textarea class="form-control" name="information" id="field_information"
+                [(ngModel)]="entry.information"  ></textarea>
+        </div>
+
+        <div class="form-group">
+            <label jhiTranslate="univportalApp.entry.tag" for="field_tag">Tag</label>
+            <select class="form-control" id="field_tag" multiple name="tag" [(ngModel)]="entry.tags">
+                <option [ngValue]="getSelected(entry.tags, tagOption)" *ngFor="let tagOption of tags; trackBy: trackTagById">{{tagOption.name}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" (click)="clear()">
+            <span class="fa fa-ban"></span>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+            <span class="fa fa-save"></span>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>
